@@ -30,3 +30,38 @@ html, body, div {
     font-weight: 900;
     text-shadow: 3px 3px #000;
 }
+
+#teams {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#imgTag {
+    width: 20%;
+    height: 20%;
+}
+
+#vs-text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+}
+
+.scoreboard {
+    padding: 0px 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+    border: 3px solid black;
+    display: inline;
+    width: fit-content;
+    margin: 0 auto !important;
+}
+
+#card {
+    margin: 0px 10px;
+    padding-bottom: 1em;
+}
